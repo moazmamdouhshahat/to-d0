@@ -1,0 +1,1083 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    width: 100%;
+}
+
+/* ============================  start section 1 ====================================================== */
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/banner-bg.jpg);
+    text-align: center;
+    background-size: 110%;
+    border-radius: 0px 0px 50px 50px;
+
+}
+
+/* 0000000000000000000000000000000000 start navbar 0000000000000000000000000000000000 */
+
+.section1 .navbar1 {
+
+    width: 100%;
+    /* overflow: hidden; */
+    /* background-color: black; */
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-image: url(../images/page-heading-bg.jpg);
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.section1 .navbar .log {
+
+    padding-left: 143px;
+}
+
+.section1 .navbar1 .btn4 {
+    background-color: rgb(247, 227, 227);
+    text-align: center;
+    font-size: 31px;
+    padding-top: 10px;
+
+}
+
+.section1 .navbar1 .mina {
+    padding-right: 144px;
+}
+
+.section1 .navbar1 .mina .child li {
+    font-size: 20px;
+    color: aliceblue;
+    margin: auto;
+    padding-right: 30px;
+}
+
+.section1 .navbar1 .mina .child li:hover {
+    background-color: rgba(255, 255, 255, 0.234);
+}
+
+.section1 .navbar1 a {
+    color: antiquewhite;
+
+}
+
+.section1 .navbar1 .mina .child li a button {
+    border-radius: 50px;
+    size: 25px;
+}
+
+/* 00000000000000000000000000000000000   end navabr 00000000000000000000000000000000000000 */
+
+.section1 .home {
+    width: 80%;
+    height: 91vh;
+    /* background-color: blue; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------- start text ---------------------------------------- */
+.section1 .home .tyep {
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    color: aliceblue;
+}
+
+.section1 .home .tyep .text {
+    margin-top: 40%;
+
+    width: 100%;
+    height: 50%;
+    /* background-color: burlywood; */
+    text-align: initial;
+}
+
+.section1 .home .tyep .text h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section1 .home .tyep .text h1 {
+    padding-bottom: 30px;
+}
+
+.section1 .home .tyep .text p {
+    padding-bottom: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.section1 .home .tyep .text input {
+    width: 52%;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.section1 .home .tyep .text button {
+    width: 27%;
+    height: 9.5%;
+    border-radius: 40px;
+    margin-left: -60px;
+    background-color: rgb(218, 153, 107);
+    color: aliceblue;
+}
+
+.section1 .home .tyep .text button:hover {
+    background-color: blue;
+}
+
+/* ------------------------------------ end text ------------------------------------- */
+/*  ================================= start img ============== =======================  */
+
+.section1 .home .image {
+    width: 49%;
+    height: 100%;
+    /* background-color: chocolate; */
+
+}
+
+.section1 .home .image .cord1 {
+    width: 65%;
+    height: 60%;
+    /* background-color: black; */
+    margin: 30% auto;
+}
+
+.section1 .home .image .cord1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.section1 .home .image .cord1 .price {
+    position: absolute;
+
+    border-radius: 25px;
+    background-color: #008af8;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding: 4px 15px;
+    margin: -78px;
+    margin-top: 11px;
+}
+
+.section1 .home .image .cord1 .offer {
+    position: absolute;
+    width: 122px;
+    height: 96px;
+    background-color: rgb(223, 131, 65);
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    border-radius: 104px;
+    bottom: 140px;
+    margin-left: -500px;
+    color: white;
+}
+
+/* =================== ================== end img  ========================================== */
+
+/* -------------------------------- start  media taplet ------------------------------------ */
+@media(max-width:768px) {
+    .section1 .home {
+        width: 100%;
+    }
+
+    .section1 .home .image .cord1 .offer {
+        bottom: 187px;
+        margin-left: -408px;
+        height: 75px;
+    }
+
+    .section1 .home .image .cord1 {
+        width: 100%;
+    }
+
+    .section1 .home .tyep .text {
+        margin-top: 28%;
+        width: 100%;
+        height: 50%;
+        /* background-color: burlywood; */
+        text-align: initial;
+    }
+}
+
+/* ----------------------------------------------  end media taplet  --------------------------  */
+
+
+
+/* -------------------------------- start  media phone ------------------------------------ */
+
+@media(max-width:412px) {
+    .section1 {
+        height: 130vh;
+    }
+
+    .section1 .home {
+        width: 100%;
+        display: flow-root;
+    }
+
+    .section1 .home .tyep {
+        width: 100%;
+        height: 55%;
+        /* background-color: brown; */
+        color: aliceblue;
+    }
+
+    .section1 .home .tyep .text h3 {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .section1 .home .tyep .text button {
+        width: 27%;
+        height: 21.5%;
+        border-radius: 40px;
+        margin-left: -60px;
+        background-color: rgb(218, 153, 107);
+        color: aliceblue;
+    }
+
+    .section1 .home .image {
+        width: 102%;
+
+    }
+
+    .section1 .home .image .cord1 {
+        margin: 14% auto;
+    }
+
+    .section1 .home .image .cord1 .offer {
+        bottom: -190px;
+        margin-left: -360px;
+        font-size: 33px;
+        width: 91px;
+        height: 49px;
+    }
+
+    .section1 .home .image {
+        width: 100%;
+        /* padding: 0px; */
+        margin-top: 60px;
+    }
+}
+
+
+@media(max-width:360px) {
+    .section1 {
+        height: 141vh;
+        margin-bottom: 10px;
+    }
+
+    .section1 .navbar .log {
+        padding-left: 0px;
+    }
+
+    .section1 .navbar .log img {
+        width: 120px;
+    }
+
+    .section1 .navbar1 .btn4 {
+        font-size: 20px;
+    }
+
+    .section1 .home .tyep {
+        width: 100%;
+        height: 62%;
+        /* background-color: brown; */
+        color: aliceblue;
+    }
+
+    .section1 .home .tyep .text h3 {
+        padding-top: 2px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        padding-left: 13px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text h1 {
+        padding-bottom: 5px;
+        font-size: 32px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text p {
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-top: 15px;
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .section1 .home .tyep .text button {
+        width: 49%;
+    }
+
+    .section1 .home .tyep .text input {
+        width: 56%;
+        margin-left: 18px;
+    }
+
+    .section1 .home .image .cord1 {
+        margin: 14% auto;
+        /* border-radius: 165px; */
+        width: 91%;
+    }
+
+    .section1 .home .image .cord1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 44px;
+    }
+
+    .section1 .home .image .cord1 .offer {
+        bottom: -232px;
+        margin-left: -320px;
+        font-size: 30px;
+        width: 84px;
+    }
+}
+
+/* -------------------------------- end   media phone ------------------------------------ */
+
+/* =================================  end Section 1 ============================= */
+
+
+/* =================================  start Section 2 ============================= */
+.section2 {
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+}
+
+
+/* =================================  start card 2 ============================= */
+.section2 .card2 {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.section2 .card2 .row .icon4 {
+    width: 100%;
+    height: 30%;
+    /* background-color: orangered; */
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.section2 .card2 .row .icon {
+    border-radius: 40px;
+    height: 65.5%;
+    width: 14rem;
+    ;
+    text-align: center;
+}
+
+.section2 .card2 .row .icon i {
+    font-size: 150px;
+    color: #008af8;
+}
+
+.section2 .card2 .row .icon i:hover {
+    color: rgb(223, 131, 65);
+
+}
+
+.section2 .card2 .row .icon p {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* =================================  end card    2 ============================= */
+
+/* ========================== start text-type  =========================================== */
+
+
+.section2 .card2 .text-type {
+
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: crimson;
+}
+
+.section2 .card2 .text-type .icon {
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+}
+
+.section2 .card2 .text-type .icon .heading {
+    background-color: greenyellow;
+    font-size: 20px;
+    color: #ffc107;
+    font-weight: bold;
+    height: 15%;
+}
+
+.section2 .card2 .text-type .icon .heading {
+    display: block;
+    color: black;
+    font-weight: bold;
+}
+
+.section2 .card2 .text-type .icon .heading h1 {
+    font-size: 35px;
+}
+
+.section2 .card2 .text-type .icon .button .main_button {
+    background-color: black;
+    margin-top: 20px;
+    height: 50px;
+    text-align: right;
+}
+
+
+/* ==========================  end Text-type   =========================================== */
+
+/* ================================== start iamge ========================== */
+.section2 .card2 .Trending_Games .row .card {
+    background-color: rgba(240, 248, 255, 0.994);
+    width: 90%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.section2 .card2 .Trending_Games {
+
+    width: 95%;
+    margin: auto;
+
+}
+
+.section2 .card2 .Trending_Games .row .card img {
+    border-radius: 30px;
+    border-radius: 30px;
+    height: 172px;
+}
+
+.section2 .card2 .Trending_Games .row .card .plgrph {
+    border-radius: 28px;
+    background-color: #008af8;
+    width: 50px;
+    height: auto;
+    position: absolute;
+    margin-top: 5px;
+    padding-top: 50p;
+    margin-left: 272px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+/* ================================== end iamge ========================== */
+
+/*  --------------------------- start media ----------------------------------------- */
+@media(max-width:768px) {
+    .section2 {
+        height: auto;
+    }
+
+    .section2 .card2 .Trending_Games .row .card .plgrph {
+        border-radius: 28px;
+        background-color: #008af8;
+        width: 50px;
+        height: auto;
+        position: absolute;
+        margin-top: 5px;
+        padding-top: 50p;
+        margin-left: 233px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .section2 .card2 .Trending_Games .row .card {
+        background-color: rgba(240, 248, 255, 0.994);
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+        margin-bottom: 12px;
+    }
+}
+
+/*  --------------------------- end media ----------------------------------------- */
+
+/* ================================= start media phone ==================  ==================*/
+@media(max-width:412px) {
+    .section2 {
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .section2 .card2 .row .icon {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .section2 .card2 .text-type .icon {
+        width: 114%;
+        height: auto;
+        margin-left: -26px;
+    }
+
+    .section2 .card2 .Trending_Games .row .card .plgrph {
+        border-radius: 28px;
+        /* background-color: #008af8; */
+        width: 50px;
+        height: auto;
+        position: absolute;
+        margin-top: 2px;
+        padding-top: 50xp;
+        margin-left: 205px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .section2 .card2 .Trending_Games .row .card img {
+        width: 114%;
+        padding-right: 4px;
+        MARGIN-LEFT: -15px;
+    }
+
+    .section2 .card2 .Trending_Games {
+        margin-left: 16px;
+    }
+}
+
+@media(max-width:360px) {
+    .section2 .card2 .icon-5 {
+        background-color: red;
+
+        margin-bottom: 20px;
+    }
+
+    .section2 .card2 .row .icon {
+        margin-bottom: 10px;
+        width: 79%;
+        width: 79%;
+        margin: 10px auto;
+    }
+}
+
+/* ================================= end media phone ==================  ==================*/
+
+/* =================================  end Section  2 ============================= */
+
+
+/* ================================  start section 3 ============================================ */
+.section3 {
+    width: 100%;
+    height: 55vh;
+    background-color: rgba(228, 222, 222, 0.371);
+    border-radius: 50px;
+}
+
+.section3 .TOP-GAMES {
+    width: 80%;
+    height: 50vh;
+    border-radius: 50px;
+    background-color: rgb(84, 0, 239);
+    margin: auto;
+
+}
+
+.section3 .TOP-GAMES .text-type .icon {
+    padding: 20px;
+    color: #fff;
+
+}
+
+.section3 .TOP-GAMES .text-type .icon .heading {
+    color: rgb(15, 13, 13);
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.section3 .TOP-GAMES .text-type .icon .button {
+    text-align: right;
+    margin-top: 42px;
+}
+
+.section3 .TOP-GAMES .item {
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.section3 .TOP-GAMES .item .card {
+    background-color: rgba(236, 245, 255, 0.994);
+
+    border-radius: 30px;
+    height: 330px;
+
+}
+
+.section3 .TOP-GAMES .item .card .card-img-top {
+    width: 110%;
+    height: 171px;
+    padding: -2px;
+    margin: -14px;
+    margin-top: 3px;
+    border-radius: 20px;
+
+}
+
+.section3 .TOP-GAMES .item .card .card-body h3 {
+    color: black;
+    font-size: 20px;
+}
+
+.section3 .TOP-GAMES .item .card .card-body p {
+    color: black;
+}
+
+.section3 .TOP-GAMES .item .card .card-body a button {
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -28;
+    font-weight: bold;
+    transition: all;
+    text-transform: capitalize;
+}
+
+.section3 .TOP-GAMES .item .card .card-body a button:hover {
+    background-color: #fff;
+}
+
+/* ====================== start media  taplet =========================================== */
+@media (max-width:768px) {
+
+    .section3 {
+        height: 144vh;
+    }
+
+
+    .section3 .TOP-GAMES .item .card .card-img-top {
+        width: 103%;
+        height: 140px;
+        padding: -2px;
+        margin: -7px;
+        margin-top: 5px;
+        border-radius: 20px;
+    }
+
+    .section3 .TOP-GAMES .item .card {
+
+        margin-bottom: 30px;
+    }
+}
+
+/* ====================== end media  tablet =========================================== */
+
+/* ====================== start media phone =========================================== */
+
+@media (max-width:412px) {
+    .section3 {
+        height: 257h;
+    }
+
+    .row {
+        margin-left: 0px;
+    }
+
+    .section3 .TOP-GAMES .item {
+        justify-content: space-between;
+        margin-left: 2px;
+    }
+
+}
+
+@media(max-width:360px) {
+    .section3 {
+        height: 326vh;
+    }
+}
+
+/* ====================== end media phone =========================================== */
+
+
+/* ================================  end section 3 ============================================ */
+
+
+
+/* ================================  start section 4 ============================================ */
+
+.section4 {
+    width: 100%;
+    height: 130vh;
+    background-color: rgba(255, 255, 255, );
+    margin-top: 40px;
+}
+
+/* =========== start card ================== */
+.section4 .content {
+    width: 80%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    margin-bottom: 77px;
+}
+
+.section4 .content p {
+    font-size: 20px;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.section4 .content .text h1 {
+    margin-bottom: 20px;
+}
+
+.section4 .content .child {
+    width: 100%;
+    /* background-color: rgb(235, 242, 242); */
+    justify-content: space-between;
+}
+
+.section4 .content .child .card {
+    border-radius: 30px;
+    background-color: #008af8;
+}
+
+.section4 .content .child .card .card-img-top {
+    width: 100%;
+    height: 100%;
+    border-radius: 30x;
+}
+
+.section4 .content .child .card .card-body a {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    margin-left: -95px;
+    margin-top: -20px;
+    border-radius: 24px;
+}
+
+/* ------------------- end card ------------------- */
+
+.section4 .img {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    margin: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.section4 .img .img1 {
+    position: absolute;
+    width: 24%;
+    margin-left: 17%;
+    height: 48%;
+    margin-top: 217px;
+    background-color: rgb(254 254 254);
+    border-radius: 30px;
+    text-align: left;
+
+}
+
+.section4 .img .img1 .text {
+
+    margin: 55px;
+
+}
+
+.section4 .img .img1 .text p {
+    font-size: 25px;
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.section4 .img .img1 .text h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.section4 .img .img1 .text h1 span {
+    color: blue;
+}
+
+.section4 .img .img1 .text h5 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.section4 .img .img1 .text a button {
+    width: 177px;
+    height: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.section4 .img .img1 .text a button:hover {
+    background-color: rgb(144, 150, 154);
+}
+
+
+.section4 .img .img2 {
+    width: 32%;
+    margin-left: 36%;
+    height: 100%;
+    border-radius: 34px;
+    background-color: violet;
+}
+
+.section4 .img .img2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.section4 .img .img3 {
+    margin-top: 43px;
+    width: 28%;
+    margin-top: 300px;
+    /* margin: auto; */
+    height: 67%;
+    margin-left: -139px;
+    background-color: rgb(254 254 254);
+    border-radius: 30px;
+
+}
+
+.section4 .img .img3 .text {
+    margin: 50px;
+
+}
+
+.section4 .img .img3 .text p {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffc107;
+}
+
+.section4 .img .img3 .text h1 {
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.section4 .img .img3 .text h1 span {
+    color: #008af8;
+}
+
+.section4 .img .img3 .text input {
+    width: 70%;
+    height: 5vh;
+    border-radius: 40px;
+    font-size: 22px;
+}
+
+.section4 .img .img3 .text a button {
+    margin-left: -68px;
+    border-radius: 30px;
+    margin-top: -13px;
+    width: 166px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 47px;
+}
+
+.section4 .img .img3 .text a button:hover {
+    background-color: aliceblue;
+    background-attachment: fixed;
+}
+
+
+
+.section4 .footer {
+    width: 100%;
+    height: 15vh;
+    margin-top: 127px;
+    /* background-color: burlywood; */
+    background-image: url(../images/footer-bg.jpg);
+    background-size: 52% -16%;
+    border-radius: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+/*=========================  start media  tablet =========================== */
+@media(max-width:768px) {
+
+    .section4 .content {
+        width: 80%;
+        height: 84%;
+    }
+
+    .section4 .content .child .card {
+        border-radius: 30px;
+        background-color: #008af8;
+        margin-bottom: 19px;
+        margin-left: 28px;
+    }
+
+    .section4 .img .img1 {
+        position: absolute;
+        width: 73%;
+        margin-left: 17%;
+        height: 48%;
+        margin-top: 46px;
+        border-radius: 30px;
+        text-align: left;
+    }
+
+    .section4 .img .img2 {
+
+        margin-top: 64px;
+    }
+
+    .section4 .img .img3 {
+        width: 213%;
+        height: 67%;
+        margin-left: -286px;
+        margin: m;
+        border-radius: 30px;
+        margin-top: 570px;
+        margin-right: 97px;
+    }
+
+}
+
+/* ======================================= start media ==================================== */
+
+
+@media(max-width:412px) {
+    .section4 {
+        width: 100%;
+        height: 128vh;
+    }
+
+    .section4 .content {
+        width: 80%;
+        height: 135%;
+    }
+
+    .section4 .img .img1 {
+        position: absolute;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .section4 .img .img3 {
+        width: 320%;
+        height: 67%;
+        margin-left: -190px;
+        margin: m;
+        border-radius: 30px;
+        margin-top: 570px;
+        margin-right: 0px;
+    }
+}
+
+
+@media(max-width:360px) {
+    .section4 {
+        width: 95%;
+        height: 129vh;
+    }
+    
+    
+
+    .section4 .content {
+        width: 88%;
+        height: 167%;
+    }
+
+    .section4 .content .child {
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+
+    .section4 .img .img1 {
+        position: absolute;
+        width: 96%;
+        margin-left: 2%;
+        height: 65%;
+        margin-top: 19px;
+        border-radius: 30px;
+        text-align: left;
+    }
+
+
+
+    .section4 .img .img3 {
+        width: 261%;
+        margin-left: -168px;
+        margin: m;
+        border-radius: 29px;
+        margin-top: 550px;
+        margin-right: 4px;
+    }
+
+    .section4 .img .img3 .text p {
+        font-size: 22px;
+    }
+
+    .section4 .img .img3 .text h1 {
+        font-size: 33px;
+    }
+
+    .section4 .img .img3 .text input {
+        width: 58%;
+    }
+
+    .section4 .img .img3 .text a button {
+        margin-left: -33px;
+        border-radius: 30px;
+        margin-top: -13px;
+        width: 129px;
+        font-weight: bold;
+        font-size: 11px;
+        height: 46px;
+    }
+
+    .section4 .img .img2 {
+        width: 32%;
+        margin-left: 36%;
+        height: 100%;
+        border-radius: 34px;
+        background-color: rgb(255, 254, 255);
+
+    }
+
+    .section4 .footer {
+        width: 100%;
+        height: 27vh;
+        margin-top: 26px;
+    }
+
+}
+
+
+
+/* ==================  end section 4 ============================================ */
